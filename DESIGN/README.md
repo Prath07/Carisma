@@ -2,7 +2,8 @@
   <img src="Carisma.png" alt="Carisma Logo" width="200"/>
 </div>
 
-# Introducing Carisma ### Spot, Snap and Share Your Car Sightings
+# Introducing Carisma 
+### Spot, Snap and Share Your Car Sightings
 
 ## App Description
 
@@ -10,12 +11,12 @@
 ## Main Features
 
 
-### Target Users
+## Target Users
 
-#### User Personas
+### User Personas
 
-### App Wireframes
+## App Wireframes
 
-### Minimum Viable Product 
+## Minimum Viable Product 
 
 #### Features Not Included in MVP
