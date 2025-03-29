@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="C -carisma.png" alt="Carisma Logo" width="200"/>
+  <img src="C - carisma.png" alt="Carisma Logo" width="200"/>
 </div>
 
 # Introducing <img src="cropped Carisma.png" alt="Carisma Logo" width="150"/>
