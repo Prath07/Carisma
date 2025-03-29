@@ -2,9 +2,8 @@
   <img src="Carisma.png" alt="Carisma Logo" width="200"/>
 </div>
 
-# Introducing Carisma
-### Spot, Snap and Share Your Car Sightings
-#
+# Introducing Carisma ### Spot, Snap and Share Your Car Sightings
+
 ## App Description
 
 
