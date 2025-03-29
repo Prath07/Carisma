@@ -2,7 +2,8 @@
   <img src="Carisma.png" alt="Carisma Logo" width="200"/>
 </div>
 
-
+# Introducing Carisma
+## Spot, Snap and Share Your Car Sightings
 
 What is your app? Include a title, short 'tagline' and a 1-2 paragraph description of what your app will do.
 
