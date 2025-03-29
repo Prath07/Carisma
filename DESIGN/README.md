@@ -1,5 +1,5 @@
 # Mobile App Design | Carisma
-![Carisma Logo](design/Carisma.jpg)
+![Carisma Logo](Carisma.jpg)
 
 
 
