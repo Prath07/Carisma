@@ -1,4 +1,6 @@
-<img src="Carisma.png" alt="Carisma Logo" width="200"/>
+<div align="center">
+  <img src="Carisma.png" alt="Carisma Logo" width="200"/>
+</div>
 
 
 
