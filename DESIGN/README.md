@@ -1,5 +1,6 @@
 # Mobile App Design | Carisma
 ![Carisma Logo](Carisma.png)
+<img src="Carisma.png" alt="Carisma Logo" width="200"/>
 
 
 
