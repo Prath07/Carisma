@@ -1,4 +1,4 @@
-# Mobile App Design | Carisma <img src="Carisma.png" alt="Carisma Logo" width="200"/>
+<img src="Carisma.png" alt="Carisma Logo" width="200"/>
 
 
 
