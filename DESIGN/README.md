@@ -2,7 +2,7 @@
   <img src="Carisma.png" alt="Carisma Logo" width="200"/>
 </div>
 
-# Introducing Carisma <img src="cropped Carisma.png" alt="Carisma Logo" width="150"/>
+# Introducing <img src="cropped Carisma.png" alt="Carisma Logo" width="150"/>
 ### Spot, Snap and Share Your Car Sightings
 
 ## About Carisma
