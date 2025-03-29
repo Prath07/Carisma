@@ -2,7 +2,7 @@
   <img src="Carisma.png" alt="Carisma Logo" width="200"/>
 </div>
 
-# Introducing Carisma 
+# Introducing Carisma <img src="cropped Carisma.png" alt="Carisma Logo" width="200"/>
 ### Spot, Snap and Share Your Car Sightings
 
 ## About Carisma
@@ -13,8 +13,7 @@ Designed for users aged 13 and older, Carisma enables anyone to create an accoun
 ## Why We Built This App
 Carisma was created to provide a space where car enthusiasts can easily connect, share and most importantly discover the cars that really spark their passion. For too long, car fans have been posting photos of amazing vehicles to their social media stories, only to receive a handful of likes or comments from people that confused a Toyota GR86 with a Subaru BRZ. These interactions left enthusiasts without a platform to truly share their excitement with likeminded individuals.
 
-We built Carisma to fill this gap by offering a platform where you can share your excitement with others who truly appreciate it. Our goal is to build a vibrant and constantly growing community of car lovers. 
- 
+We built Carisma to fill this gap by offering a platform where you can share your excitement with others who truly appreciate it. Our goal is to build a vibrant and constantly growing community of car lovers.  
 
 ## Main Features
 
