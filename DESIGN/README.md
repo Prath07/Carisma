@@ -1,5 +1,5 @@
 # Mobile App Design | Carisma
-![Carisma Logo](F:\Prathamesh\Documents\mobile-application-development-Prath07\DESIGN\Carisma.webp)
+![Carisma Logo](design/Carisma.jpg)
 
 
 
