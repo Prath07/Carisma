@@ -55,7 +55,7 @@ The following are the different user personas we believe will be using Carisma:
 
 **Sophie - The Casual User**
 * Is 30 years old and works in marketing in Sydney
-* She drives a Tesla and has no intention on buying a uniqe car
+* She drives a Tesla and has no intention on buying a unique car
 * She occasionally spots vintage cars at her local cafe
 * She uses the app to record these vintage cars and share it with her brother who lives in Melbourne
 
