@@ -76,6 +76,11 @@ The following are the different user personas we believe will be using Carisma:
 
 ## App Wireframes
 
+1. **Login Screen**: User's can login or register for a profile via their email
+2. **Home Screen**: Feed of car sightings with user uploaded photos, likes and comments. Can search for users and cars using the search bar
+3. **Add a Spot**: Camera/photo upload, car details form and locatoin capture
+4. **User Profile Screen**: User spots, following/followed users/cars
+
 ## Minimum Viable Product 
 
 #### Features Not Included in MVP
