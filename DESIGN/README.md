@@ -15,6 +15,17 @@ Carisma was created to provide a space where car enthusiasts can easily connect,
 We built Carisma to fill this gap by offering a platform where you can share your excitement with others who truly appreciate it. Our goal is to build a vibrant and constantly growing community of car lovers.  
 
 ## Main Features
+Carisma's main features are:
+* User Authentication
+- 
+* Photo Upload
+-
+* Car Database
+- 
+*  Community Engagement
+-
+* User Profiles
+- 
 
 
 ## Target Users
