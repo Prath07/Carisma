@@ -98,11 +98,27 @@ The following wireframs will provide users with a better understanding of how to
 ![Wireframe - Home Screen](carisma_signup.png)
 
 **Home Screen**
-* Displays a feed of car sightings with user uploaded photos and likes 
+* Displays a feed of car sightings with user uploaded photos and likes
+* Users can like the posts that they see on their feed
+* Users can navigate to the **Snap** and **Profile** page by the toolbar on the bottom
 
 ![Wireframe - Home Screen](carisma_home.png)
 
-4. **Add a Spot**: Camera/photo upload, car details form and location capture
+**Snap Page**: 
+* Brings up the option for the user to select the camera (Top Left Square) or to choose from their libary
+* If the user decides to choose from their library then they can scroll down and pick an appropriate photo. Once they have selected one they select the Next button and are directed to the **Car Post Page**
+* If the user decides to take the photo with the camera then they are directed to the **Take Photo Page**
+
+![Wireframe - Home Screen](carisma_imagepicker.png)
+
+**Take Photo Page**
+
+![Wireframe - Home Screen](carisma_camera.png)
+
+**Car Post Page**
+
+![Wireframe - Home Screen](carisma_post.png)
+
 5. **User Profile Screen**: User spots, following/followed users/cars
 
 ## Minimum Viable Product 
@@ -116,6 +132,7 @@ MVP1 will aim to include the following core features:
 ## Future Roadmap
 Post-MVP1, Carisma can expand in various ways:
 * **Gamification**: Introduce a gamification aspect and allow users to earn points, badges and create leaderboards for top contributions
+* **Improved UI/UX**: Build upon MVP1 to enhance the UI and UX of Carisma
 * **Commenting and Sharing**: Allow users to comment on and share posts
 * **Event-page**: A section where users can create public events for upcoming car meets and auto shows
 * **AI-powered Image Recognition**: Automatically detect car make and model from uploaded photos
