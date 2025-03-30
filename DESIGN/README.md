@@ -76,7 +76,7 @@ The following are the different user personas we believe will be using Carisma:
 
 ## App Wireframes
 
-The following wireframs will provide users with a better understanding of how to interact with the app.
+The following wireframes will provide users with a better understanding of how to interact with the app.
 
 **Loading Screen**
 * The following screen will display for users whilst they wait for the app to load
