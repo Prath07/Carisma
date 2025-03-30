@@ -76,11 +76,25 @@ The following are the different user personas we believe will be using Carisma:
 
 ## App Wireframes
 
-1. **Login Screen**: User's can login or register for a profile via their email
+1. **Login Screen**: Users can login or register for a profile via their email
 2. **Home Screen**: Feed of car sightings with user uploaded photos, likes and comments. Can search for users and cars using the search bar
-3. **Add a Spot**: Camera/photo upload, car details form and locatoin capture
+3. **Add a Spot**: Camera/photo upload, car details form and location capture
 4. **User Profile Screen**: User spots, following/followed users/cars
 
 ## Minimum Viable Product 
+MVP1 will aim to include the following core features:
+* Ability for users to sign-in and sign-up via their email
+* Ability for users to upload their car sightings and include car details and the location
+* Ability for users to view and browse car sightings
+* User profiles with basic features
+* Ability to search for cars and existing users
 
-#### Features Not Included in MVP
+## Future Roadmap
+Post-MVP1, Carisma can expand in various ways:
+* **Gamification**: Introduce a gamification aspect and allow users to earn points, badges and create leaderboards for top contributions
+* **Event-page**: A section where users can create public events for upcoming car meets and auto shows
+* **AI-powered Image Recognition**: Automatically detect car make and model from uploaded photos
+* **Sponsored Ads**: Allow car shows, brands and users to run ads
+* **Carisma Events & Meetups**: Use the Carisma brand to organise real world meetups and virtual events for users
+* **International Inclusion**: Support multi-language capabilities
+* **Social Media Sharing**: Allow users to easily share their Carisma spots to Instagram, Tiktok, X and Facebook
