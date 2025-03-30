@@ -112,14 +112,27 @@ The following wireframs will provide users with a better understanding of how to
 ![Wireframe - Home Screen](carisma_imagepicker.png)
 
 **Take Photo Page**
+* The camera opens and the user can take the photo by clicking on the camera button. Once the photo has been taken the user is directed to the **Car Post Page**
 
 ![Wireframe - Home Screen](carisma_camera.png)
 
 **Car Post Page**
+* The user can type in the Car and Model name, Location and a caption
+* Once they are happy with the photo and the relevant details they select the Post button to share 
 
 ![Wireframe - Home Screen](carisma_post.png)
 
-5. **User Profile Screen**: User spots, following/followed users/cars
+**User Profile Screen**
+* The user will be able to view their posts and sign out
+* The sign out option will take them back to the **Sign In Screen**
+
+![Wireframe - Home Screen](carisma_profile.png)
+
+
+The following image displays the entire app flow in one screenshot:
+
+![Wireframe - Home Screen](wireframe.png)
+
 
 ## Minimum Viable Product 
 MVP1 will aim to include the following core features:
@@ -132,6 +145,7 @@ MVP1 will aim to include the following core features:
 ## Future Roadmap
 Post-MVP1, Carisma can expand in various ways:
 * **Gamification**: Introduce a gamification aspect and allow users to earn points, badges and create leaderboards for top contributions
+* **Improved Profile Settings**: Build upon MVP1 to allow users to create profile pictures and more
 * **Improved UI/UX**: Build upon MVP1 to enhance the UI and UX of Carisma
 * **Commenting and Sharing**: Allow users to comment on and share posts
 * **Event-page**: A section where users can create public events for upcoming car meets and auto shows
@@ -140,3 +154,6 @@ Post-MVP1, Carisma can expand in various ways:
 * **Carisma Events & Meetups**: Use the Carisma brand to organise real world meetups and virtual events for users
 * **International Inclusion**: Support multi-language capabilities
 * **Social Media Sharing**: Allow users to easily share their Carisma spots to Instagram, Tiktok, X and Facebook
+
+## Conclusion
+Carisma is designed to be an intuitive, community driven platform for car lovers and casual users alike. It provides a fun way to document and share automotive discoveries. The MVP will focus on the core functionalities while laying the groundwork for potential expansions in future versions.
