@@ -17,7 +17,7 @@ We built Carisma to fill this gap by offering a platform where you can share you
 ## Main Features
 Carisma's main features are:
 * User Authentication
-- 
+    - 
 * Photo Upload
 -
 * Car Database
