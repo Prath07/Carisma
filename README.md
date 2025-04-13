@@ -2,3 +2,6 @@
 
 This repository will contain your Flutter mobile app
 project for COMP3130.
+
+
+week 5-7: flutter project
