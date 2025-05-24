@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "782279695085",
+    "project_id": "carisma-4f6c6",
+    "storage_bucket": "carisma-4f6c6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782279695085:android:fb754e15e975d440b70ae4",
+        "android_client_info": {
+          "package_name": "com.example.carisma"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5z6Zs0uY7l7jIpbq5ATx2ks2WXGSthUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782279695085:android:07a84e25ed750bc0b70ae4",
+        "android_client_info": {
+          "package_name": "com.prathamesh.carisma"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5z6Zs0uY7l7jIpbq5ATx2ks2WXGSthUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
