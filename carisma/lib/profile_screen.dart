@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'login_screen.dart';
+import 'upload_page.dart';
 import 'auth_gate.dart';
 
 class ProfileScreen extends StatelessWidget {
@@ -127,7 +128,10 @@ class ProfileScreen extends StatelessWidget {
               if (index == 0) {
                 Navigator.popUntil(context, (route) => route.isFirst);
               } else if (index == 1) {
-                Navigator.pushNamed(context, '/upload');
+                Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => UploadPage()),
+            );
               }
             },
             items: const [

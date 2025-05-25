@@ -186,7 +186,7 @@ class _UploadPageState extends State<UploadPage> {
                       ElevatedButton.icon(
                         onPressed: _uploadImage,
                         icon: Icon(Icons.upload),
-                        label: Text('Upload'),
+                        label: Text('Post'),
                       ),
                       ElevatedButton.icon(
                         onPressed: _pickFromGallery,
