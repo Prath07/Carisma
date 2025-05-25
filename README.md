@@ -1,6 +1,8 @@
 # Mobile Application Development Project for COMP3130
 # Carisma
-Carisma is a Flutter-based mobile application that allows users to capture and share interesting car sightings. Users can upload photos through their camera or gallery, add details, and post them to a shared feed. Each user has a profile section showing their own posts in a grid layout.
+Carisma is a dynamic mobile app that allows car enthusiasts to capture, share, and discover photos and videos of unique cars spotted in everyday life. Whether it’s a rare classic, an exotic sports car, or a customised masterpiece, Carisma gives users an easy and interactive platform to document the vehicles they encounter. The app fosters a passionate community of car lovers, encouraging users to share their car sightings, interact with fellow enthusiasts, and explore the wide world of automotive culture, all from the convenience of their phones. 
+
+Designed for users aged 13 and older, Carisma enables anyone to create an account by registering with their email and choosing a username. Once signed up, users can upload their car sightings, tagging them with relevant details and sharing them with followers or a specific group of car lovers. Carisma also allows users to like and comment, promoting engagement and building a sense of community. Whether discovering rare vehicles or connecting with likeminded enthusiasts, Carisma is the perfect app for anyone eager to immerse themselves in the world of cars.
 
 This project was developed as part of the COMP3130 – Mobile Application Development unit.
 
@@ -11,6 +13,22 @@ Carisma enables users to:
 - Add contextual details (Make + Model of the car) and location data
 - View a global feed of shared posts
 - Access a personal profile showing uploaded posts
+
+## Devices Used to Test
+- Various andriod devices
+
+## Compatible Devices:
+- Andriod Devices
+
+## Incompatible Devices
+- Web based browsers such as Chrome and Edge (Image files not compatible but the rest of the system works as expected)
+- IOS
+
+## Differences from D1
+- Small UI changes in regards to the text and some color differences
+- The "snap" page has had a UI/UX change after further evaluation on the initial design
+- Profile page does not contain the username but the email (to be fixed in future iterations)
+
 
 ## Features
 
@@ -34,13 +52,14 @@ Carisma enables users to:
 ## Testing
 
 ### Widget Tests
-1. test/widgets/login_screen_test.dart — Tests LoginScreen widget UI and interactions
-2. test/widgets/login_screen_test.dart — Tests LoginScreen widget UI and interactions
-3. test/widgets/login_screen_test.dart — Tests LoginScreen widget UI and interactions
+1. test/widget_test_home.dart — Tests the HomeScreen widget layout and feed behavior.
+2. test/widget_test_login.dart — Verifies LoginScreen input handling, button states, and password toggle logic.
+3. test/widget_test_profile.dart — Ensures the ProfileScreen renders user info and image grid correctly using a mock user.
 
 ### Unit Tests
-1. test/unit/auth_unit_test.dart — Tests Firebase authentication logic (sign-in, sign-out)
-2. test/unit/auth_unit_test.dart — Tests Firebase authentication logic (sign-in, sign-out)
+1. test/unit_test_email_validator.dart — Validates email format logic with various correct/incorrect inputs.
+2. test/unit_test_location_format.dart — Checks correct formatting of location strings (lat/lon) for post data.
+3. test/unit_test_upload_validation.dart — Tests image and field validation logic before allowing uploads.
 
 ### Integration Test
 A basic end-to-end test checks the snap-to-feed flow:
