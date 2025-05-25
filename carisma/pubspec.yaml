@@ -30,7 +30,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.8
+  
+  # cupertino_icons: ^1.0.8
 
   # Firebase dependencies (inside the dependencies section!)
   firebase_core: ^3.13.1
@@ -41,7 +42,13 @@ dependencies:
   path: ^1.9.0
   geolocator: ^11.0.0
 
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
 
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/C_carisma"  # ← Path to your icon image
 
 
   # The "flutter_lints" package below contains a set of recommended lints to
