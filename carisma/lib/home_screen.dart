@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'upload_page.dart';
+import 'profile_screen.dart';
+
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -179,7 +181,10 @@ class HomeScreen extends StatelessWidget {
               MaterialPageRoute(builder: (context) => UploadPage()),
             );
           } else if (index == 2) {
-            // TODO: Replace with profile screen navigation
+            Navigator.push(
+             context,
+              MaterialPageRoute(builder: (context) => const ProfileScreen()),
+            );
           }
         },
         items: const [
