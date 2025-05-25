@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'upload_page.dart';  // Adjust the path if needed
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -20,6 +21,15 @@ class HomeScreen extends StatelessWidget {
       ),
       body: const Center(
         child: Text('Welcome to Carisma! 🚗'),
+      ),
+      floatingActionButton: FloatingActionButton(
+        child: const Icon(Icons.upload),
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) =>  UploadPage()),
+          );
+        },
       ),
     );
   }
