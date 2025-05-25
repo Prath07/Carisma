@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: AuthGate(), // 👈 We'll build this next
+      home: AuthGate(),
     );
   }
 }

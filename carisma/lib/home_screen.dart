@@ -9,7 +9,9 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Carisma Feed'),
+        title:  Image.asset('assets/C_carisma.png',    height: 40,  ),
+  centerTitle: true,
+        //const Text('Carisma Feed'),
         actions: [
           IconButton(
             icon: const Icon(Icons.logout),

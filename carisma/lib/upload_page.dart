@@ -31,7 +31,7 @@ class _UploadPageState extends State<UploadPage> {
     }
   }
 
-  Future<void> _uploadImage() async {
+Future<void> _uploadImage() async {
   if (_image == null || _makeController.text.isEmpty || _modelController.text.isEmpty) {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(content: Text('Please fill all fields and select an image')),
@@ -42,43 +42,41 @@ class _UploadPageState extends State<UploadPage> {
   setState(() => _uploading = true);
 
   try {
-    final fileName = path.basename(_image!.path);
-    final storageRef = FirebaseStorage.instance.ref('car_images/$fileName');
-    await storageRef.putFile(_image!);
-    final imageUrl = await storageRef.getDownloadURL();
-
     final currentUser = FirebaseAuth.instance.currentUser;
+  if (currentUser == null) {
+    ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('User not logged in')));
+    return;
+  }
 
-    await FirebaseFirestore.instance.collection('cars').add({
-      'make': _makeController.text,
-      'model': _modelController.text,
-      'image_url': imageUrl,
-      'uploaded_by': currentUser?.email ?? 'anonymous',
-      'timestamp': FieldValue.serverTimestamp(),
-    });
+  final imageUploadService = ImageUploadService();
+  await imageUploadService.uploadImage(
+    _image!,
+    currentUser.uid,
+    _makeController.text,
+    _modelController.text,
+  );
 
-    if (context.mounted) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Upload successful')),
-      );
-    }
 
-    await Future.delayed(Duration(milliseconds: 500)); // optional pause
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(content: Text('Upload successful')),
+    );
 
-    if (context.mounted) {
-      Navigator.pop(context); // 👈 go back to the previous screen (e.g., home)
-    }
+    // Navigate back to Home after short delay
+    await Future.delayed(Duration(seconds: 1)); // optional, gives time to see success message
+    if (mounted) Navigator.pop(context); // <- This is what sends user back
+
   } catch (e) {
     print('Upload failed: $e');
-    if (context.mounted) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Upload failed')),
-      );
-    }
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(content: Text('Upload failed')),
+    );
   } finally {
-    if (mounted) {
-      setState(() => _uploading = false);
-    }
+    setState(() {
+      _uploading = false;
+      _image = null;
+      _makeController.clear();
+      _modelController.clear();
+    });
   }
 }
 
@@ -93,7 +91,7 @@ class _UploadPageState extends State<UploadPage> {
           children: [
             _image != null
                 ? Image.file(_image!, height: 200)
-                : Container(height: 200, color: Colors.grey[200], child: Center(child: Text('No image selected'))),
+                : Container(height: 200, color:Color(0xFFFDFCFB), child: Center(child: Text('No image selected'))),
             TextField(
               controller: _makeController,
               decoration: InputDecoration(labelText: 'Make'),
