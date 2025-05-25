@@ -31,4 +31,39 @@ Carisma enables users to:
 - Grid view of all photos uploaded by the currently signed-in user
 - Data is pulled dynamically from Firestore based on the user's ID
 
+## Testing
 
+### Widget Tests
+1. test/widgets/login_screen_test.dart — Tests LoginScreen widget UI and interactions
+2. test/widgets/login_screen_test.dart — Tests LoginScreen widget UI and interactions
+3. test/widgets/login_screen_test.dart — Tests LoginScreen widget UI and interactions
+
+### Unit Tests
+1. test/unit/auth_unit_test.dart — Tests Firebase authentication logic (sign-in, sign-out)
+2. test/unit/auth_unit_test.dart — Tests Firebase authentication logic (sign-in, sign-out)
+
+### Integration Test
+A basic end-to-end test checks the snap-to-feed flow:
+- Sign in
+- Take/upload a photo
+- Submit the post
+- Verify it appears in the feed
+
+To run tests:
+flutter test
+
+Technologies Used:
+
+Flutter:	Mobile UI development
+Firebase Auth:	User authentication
+Firebase Firestore:	Storing post metadata
+Firebase Storage:	Hosting uploaded images
+Flutter Test	Unit and widget testing
+
+Developer Notes:
+The application is structured to support future enhancements such as:
+- Post commenting
+- Ability to follow users and more
+- AI-based car model detection
+- Gamification features (badges, points)
+- Car event pages or community features

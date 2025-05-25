@@ -175,7 +175,7 @@ class HomeScreen extends StatelessWidget {
         currentIndex: 0,
         onTap: (index) {
           if (index == 1) {
-            //  UploadPage now triggered when tapping the Snap button
+            //  UploadPage triggered when tapping the Snap button
             Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => UploadPage()),
