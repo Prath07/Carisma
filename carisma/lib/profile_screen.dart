@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'login_screen.dart';
+import 'auth_gate.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
@@ -47,14 +48,11 @@ class ProfileScreen extends StatelessWidget {
               IconButton(
                 icon: const Icon(Icons.logout, color: Colors.red),
                 onPressed: () async {
-                  try {
-                    await FirebaseAuth.instance.signOut();
-                    
-                  } catch (e) {
-                    // Optionally handle sign out errors here
-                    print('Sign out error: $e');
-                  }
-},
+                  await FirebaseAuth.instance.signOut();
+                  
+                  print("User signed out");
+                }
+
               ),
             ],
           ),
