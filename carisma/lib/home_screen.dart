@@ -59,7 +59,8 @@ class HomeScreen extends StatelessWidget {
                       final data = docs[index].data()! as Map<String, dynamic>;
 
                       final imageUrl = data['imageUrl'] ?? '';
-                      final carDetails = data['carDetails'] ?? 'Unknown Car';
+                      final carDetails = data['make'] ?? 'Unknown Make';
+                      final carModel = data['model'] ?? 'Unknown Model';
                       final location = data['location'] ?? 'Unknown';
                       final year = data['year'] ?? '';
                       final userId = data['userId'] ?? 'User';
@@ -113,6 +114,13 @@ class HomeScreen extends StatelessWidget {
                                   const SizedBox(height: 4),
                                   Text(
                                     carDetails,
+                                    style: const TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 16,
+                                    ),
+                                  ),
+                                  Text(
+                                    carModel,
                                     style: const TextStyle(
                                       fontWeight: FontWeight.bold,
                                       fontSize: 16,
