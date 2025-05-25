@@ -75,12 +75,18 @@ class _LoginScreenState extends State<LoginScreen> {
                   onPressed: _signIn,
                   style: ElevatedButton.styleFrom(
                     padding: const EdgeInsets.symmetric(vertical: 16),
-                    backgroundColor: Colors.indigo,
+                    backgroundColor: const Color(0xFF0A3458),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(12),
                     ),
                   ),
-                  child: const Text('Sign in', style: TextStyle(fontSize: 16)),
+                  child: const Text(
+                        'Sign In',
+                        style: TextStyle(
+                          fontSize: 16,
+                          color: Colors.white,
+                        ),
+                      ),
                 ),
               ),
               const SizedBox(height: 12),
@@ -88,7 +94,13 @@ class _LoginScreenState extends State<LoginScreen> {
                 onPressed: () {
                   Navigator.push(context, MaterialPageRoute(builder: (_) => const SignUpScreen()));
                 },
-                child: const Text("Don't have an account? Sign Up"),
+                child: const Text(
+                  "Don't have an account? Sign Up",
+                  style: TextStyle(
+                    color: Color(0xFF0A3458),
+                  ),
+                ),
+
               ),
             ],
           ),
