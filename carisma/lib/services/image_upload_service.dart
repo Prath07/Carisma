@@ -38,7 +38,7 @@ class ImageUploadService {
   }
 
   /// Uploads the image to Firebase Storage and saves info in Firestore
-  Future<void> uploadImage(File imageFile, String userId, String make, String model) async {
+  Future<void> uploadImage(File imageFile, String userId, String make, String model, {String? location}) async {
   final fileName = path.basename(imageFile.path);
   final ref = FirebaseStorage.instance.ref().child('car_photos/$userId/$fileName');
 
@@ -50,6 +50,7 @@ class ImageUploadService {
     'make': make,
     'model': model,
     'imageUrl': url,
+    'location': location ?? '',
     'timestamp': FieldValue.serverTimestamp(),
   });
 }
