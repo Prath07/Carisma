@@ -1,4 +1,3 @@
-# Mobile Application Development Project for COMP3130
 # Carisma
 Carisma is a dynamic mobile app that allows car enthusiasts to capture, share, and discover photos and videos of unique cars spotted in everyday life. Whether it’s a rare classic, an exotic sports car, or a customised masterpiece, Carisma gives users an easy and interactive platform to document the vehicles they encounter. The app fosters a passionate community of car lovers, encouraging users to share their car sightings, interact with fellow enthusiasts, and explore the wide world of automotive culture, all from the convenience of their phones. 
 
